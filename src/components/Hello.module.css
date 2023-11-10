@@ -1,0 +1,19 @@
+.container {
+    margin: 1rem;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hello__start {
+    margin-bottom: 1rem;
+}
+
+.hello__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}

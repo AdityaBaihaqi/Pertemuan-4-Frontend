@@ -1,0 +1,38 @@
+.container {
+    background-color: #001B79;
+    padding: 1rem;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navbar__brand {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    margin: 10px;
+}
+
+.navbar__list {
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar__list>li:hover {
+    background-color: crimson;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar__item {
+    margin-bottom: 1rem;
+    margin: 0 1rem;
+    padding: 10px;
+    background-color: #1AACAC;
+    border-radius: 15px;
+}
